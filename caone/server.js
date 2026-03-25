@@ -45,7 +45,7 @@ app.post('/book1',(req,res)=>{
     res.send(`
         <h1> booking confirmed</h1>
         movie: ${movie} <br>
-        movie: ${seat} <br>
+        seat: ${seat} <br>
         time: ${time} <br>
         booking id: BK-20260310-0042 <br>
         customer: ${customer}
